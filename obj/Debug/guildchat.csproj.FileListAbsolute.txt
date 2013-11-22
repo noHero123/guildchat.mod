@@ -1,0 +1,11 @@
+C:\Users\Thele\Downloads\scrollsmodder\guildchat\template.mod\guildchat.mod\obj\Debug\guildchat.csprojResolveAssemblyReference.cache
+C:\Users\Thele\Downloads\scrollsmodder\guildchat\template.mod\guildchat.mod\bin\Debug\guildchat.mod.dll
+C:\Users\Thele\Downloads\scrollsmodder\guildchat\template.mod\guildchat.mod\bin\Debug\guildchat.mod.pdb
+C:\Users\Thele\Downloads\scrollsmodder\guildchat\template.mod\guildchat.mod\bin\Debug\Assembly-CSharp.dll
+C:\Users\Thele\Downloads\scrollsmodder\guildchat\template.mod\guildchat.mod\bin\Debug\JsonFx.dll
+C:\Users\Thele\Downloads\scrollsmodder\guildchat\template.mod\guildchat.mod\bin\Debug\Mono.Cecil.dll
+C:\Users\Thele\Downloads\scrollsmodder\guildchat\template.mod\guildchat.mod\bin\Debug\ScrollsModLoader.Interfaces.dll
+C:\Users\Thele\Downloads\scrollsmodder\guildchat\template.mod\guildchat.mod\bin\Debug\UnityEngine.dll
+C:\Users\Thele\Downloads\scrollsmodder\guildchat\template.mod\guildchat.mod\obj\Debug\guildchat.mod.dll
+C:\Users\Thele\Downloads\scrollsmodder\guildchat\template.mod\guildchat.mod\obj\Debug\guildchat.mod.pdb
+C:\Users\Thele\Downloads\scrollsmodder\guildchat\template.mod\guildchat.mod\bin\Debug\ICSharpCode.SharpZipLib.dll

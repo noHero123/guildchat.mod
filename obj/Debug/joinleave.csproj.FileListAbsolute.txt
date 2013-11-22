@@ -1,0 +1,10 @@
+C:\Users\Thele\Downloads\scrollsmodder\joinleave\template.mod\joinleave.mod\bin\Debug\joinleave.mod.dll
+C:\Users\Thele\Downloads\scrollsmodder\joinleave\template.mod\joinleave.mod\bin\Debug\joinleave.mod.pdb
+C:\Users\Thele\Downloads\scrollsmodder\joinleave\template.mod\joinleave.mod\bin\Debug\Assembly-CSharp.dll
+C:\Users\Thele\Downloads\scrollsmodder\joinleave\template.mod\joinleave.mod\bin\Debug\JsonFx.dll
+C:\Users\Thele\Downloads\scrollsmodder\joinleave\template.mod\joinleave.mod\bin\Debug\Mono.Cecil.dll
+C:\Users\Thele\Downloads\scrollsmodder\joinleave\template.mod\joinleave.mod\bin\Debug\ScrollsModLoader.Interfaces.dll
+C:\Users\Thele\Downloads\scrollsmodder\joinleave\template.mod\joinleave.mod\bin\Debug\UnityEngine.dll
+C:\Users\Thele\Downloads\scrollsmodder\joinleave\template.mod\joinleave.mod\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Thele\Downloads\scrollsmodder\joinleave\template.mod\joinleave.mod\obj\Debug\joinleave.mod.dll
+C:\Users\Thele\Downloads\scrollsmodder\joinleave\template.mod\joinleave.mod\obj\Debug\joinleave.mod.pdb

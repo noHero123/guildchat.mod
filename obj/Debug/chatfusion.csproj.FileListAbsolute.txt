@@ -1,0 +1,10 @@
+C:\Users\Thele\Downloads\scrollsmodder\chatfusion\template.mod\chatfusion.mod\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Thele\Downloads\scrollsmodder\chatfusion\template.mod\chatfusion.mod\bin\Debug\chatfusion.mod.dll
+C:\Users\Thele\Downloads\scrollsmodder\chatfusion\template.mod\chatfusion.mod\bin\Debug\chatfusion.mod.pdb
+C:\Users\Thele\Downloads\scrollsmodder\chatfusion\template.mod\chatfusion.mod\bin\Debug\Assembly-CSharp.dll
+C:\Users\Thele\Downloads\scrollsmodder\chatfusion\template.mod\chatfusion.mod\bin\Debug\JsonFx.dll
+C:\Users\Thele\Downloads\scrollsmodder\chatfusion\template.mod\chatfusion.mod\bin\Debug\Mono.Cecil.dll
+C:\Users\Thele\Downloads\scrollsmodder\chatfusion\template.mod\chatfusion.mod\bin\Debug\ScrollsModLoader.Interfaces.dll
+C:\Users\Thele\Downloads\scrollsmodder\chatfusion\template.mod\chatfusion.mod\bin\Debug\UnityEngine.dll
+C:\Users\Thele\Downloads\scrollsmodder\chatfusion\template.mod\chatfusion.mod\obj\Debug\chatfusion.mod.dll
+C:\Users\Thele\Downloads\scrollsmodder\chatfusion\template.mod\chatfusion.mod\obj\Debug\chatfusion.mod.pdb

@@ -1,0 +1,10 @@
+C:\Users\Thele\Downloads\scrollsmodder\newmenuepoint\template.mod\newmenuepoint.mod\bin\Debug\newmenuepoint.mod.dll
+C:\Users\Thele\Downloads\scrollsmodder\newmenuepoint\template.mod\newmenuepoint.mod\bin\Debug\newmenuepoint.mod.pdb
+C:\Users\Thele\Downloads\scrollsmodder\newmenuepoint\template.mod\newmenuepoint.mod\bin\Debug\Assembly-CSharp.dll
+C:\Users\Thele\Downloads\scrollsmodder\newmenuepoint\template.mod\newmenuepoint.mod\bin\Debug\JsonFx.dll
+C:\Users\Thele\Downloads\scrollsmodder\newmenuepoint\template.mod\newmenuepoint.mod\bin\Debug\Mono.Cecil.dll
+C:\Users\Thele\Downloads\scrollsmodder\newmenuepoint\template.mod\newmenuepoint.mod\bin\Debug\ScrollsModLoader.Interfaces.dll
+C:\Users\Thele\Downloads\scrollsmodder\newmenuepoint\template.mod\newmenuepoint.mod\bin\Debug\UnityEngine.dll
+C:\Users\Thele\Downloads\scrollsmodder\newmenuepoint\template.mod\newmenuepoint.mod\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Thele\Downloads\scrollsmodder\newmenuepoint\template.mod\newmenuepoint.mod\obj\Debug\newmenuepoint.mod.dll
+C:\Users\Thele\Downloads\scrollsmodder\newmenuepoint\template.mod\newmenuepoint.mod\obj\Debug\newmenuepoint.mod.pdb
