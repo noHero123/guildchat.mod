@@ -131,6 +131,7 @@ namespace guildchat.mod
 
                 if (GUI.Button(recto.fillbuttonrect, "Refresh") && gdata.workthreadready)
                 {
+                    gdata.workthreadready = false;
                     gdata.getGoogleDataKey();
                     new Thread(new ThreadStart(gdata.workthread)).Start();
                 }

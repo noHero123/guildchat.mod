@@ -83,7 +83,7 @@ namespace guildchat.mod
                 i++;
             }
             string txt1 = txt.Replace(" ", "+");
-            Console.WriteLine("##sendTogoogle: "+txt1);
+            //Console.WriteLine("##sendTogoogle: "+txt1);
             byte[] bytes = Encoding.ASCII.GetBytes(txt1 + "draftResponse=%5B%5D%0D%0A&pageHistory=0");
 
             HttpWebRequest webRequest = HttpWebRequest.Create(form + "formResponse") as HttpWebRequest;
@@ -127,37 +127,37 @@ namespace guildchat.mod
                 {
                     dictionary = (Dictionary<string, object>)entrys[i]["gsx$r2"];
                     cry.setkey((string)dictionary["$t"]);
-                    Console.WriteLine("found key: " + (string)dictionary["$t"]);
+                    Console.WriteLine("found key");
                 }
                 if (((string)dictionary["$t"]).ToLower() == "shortnews")
                 {
                     dictionary = (Dictionary<string, object>)entrys[i]["gsx$r2"];
                     this.welcomeMessage = (string)dictionary["$t"];
-                    Console.WriteLine("found news: " + (string)dictionary["$t"]);
+                    Console.WriteLine("found news");
                 }
                 if (((string)dictionary["$t"]).ToLower() == "longnews")
                 {
                     dictionary = (Dictionary<string, object>)entrys[i]["gsx$r2"];
                     this.windowMessage = (string)dictionary["$t"];
-                    Console.WriteLine("found news: " + (string)dictionary["$t"]);
+                    Console.WriteLine("found longnews");
                 }
                 if (((string)dictionary["$t"]).ToLower() == "room")
                 {
                     dictionary = (Dictionary<string, object>)entrys[i]["gsx$r2"];
                     this.guildroom = (string)dictionary["$t"];
-                    Console.WriteLine("found room: " + (string)dictionary["$t"]);
+                    Console.WriteLine("found room");
                 }
                 if (((string)dictionary["$t"]).ToLower() == "calendaredit")
                 {
                     dictionary = (Dictionary<string, object>)entrys[i]["gsx$r2"];
                     this.calendareditor = ((string)dictionary["$t"]).Split(new String[] { "viewform" }, StringSplitOptions.RemoveEmptyEntries)[0];
-                    Console.WriteLine("found calendaredit: " + this.calendareditor);
+                    Console.WriteLine("found calendaredit");
                 }
                 if (((string)dictionary["$t"]).ToLower() == "onlineoroffline")
                 {
                     dictionary = (Dictionary<string, object>)entrys[i]["gsx$r2"];
                     this.onlineorofflineForm = ((string)dictionary["$t"]).Split(new String[] { "viewform" }, StringSplitOptions.RemoveEmptyEntries)[0];
-                    Console.WriteLine("found onlineoroffline: " + this.onlineorofflineForm);
+                    Console.WriteLine("found onlineoroffline");
                 }
                 if (((string)dictionary["$t"]).ToLower() == "calendar")
                 {
