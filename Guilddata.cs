@@ -19,7 +19,7 @@ namespace guildchat.mod
 
     class Guilddata
     {
-
+		public bool autoencrypt = false;
         public bool workthreadready = true;
         public string welcomeMessage = "";
         public string windowMessage = "";
@@ -48,7 +48,7 @@ namespace guildchat.mod
         {
 
 
-            string[] files = Directory.GetFiles(this.modfolder, "guilddata.txt");
+            string[] files = Directory.GetFiles(this.modfolder, "*.txt");
             if (files.Contains(this.modfolder + "guilddata.txt"))//File.Exists() was slower
             {
                 string text = System.IO.File.ReadAllText(this.modfolder + "guilddata.txt");
@@ -57,7 +57,18 @@ namespace guildchat.mod
             }
             else { System.IO.File.WriteAllText(this.modfolder + "guilddata.txt", ""); }
 
+            if (files.Contains(this.modfolder + "settingsdata.txt"))//File.Exists() was slower
+            {
+                string text = System.IO.File.ReadAllText(this.modfolder + "settingsdata.txt");
+                text.Replace("\r\n", "");
+				if (text.ToLower() == "true") this.autoencrypt = true;
+            }
+            else { System.IO.File.WriteAllText(this.modfolder + "settingsdata.txt", "true"); }
+        }
 
+        public void saveEncryptSettings()
+        {
+            System.IO.File.WriteAllText(this.modfolder + "settingsdata.txt", this.autoencrypt.ToString());
         }
 
         public string getDataFromGoogleDocs(string googledatakey)

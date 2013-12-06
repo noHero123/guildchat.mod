@@ -23,7 +23,7 @@ namespace guildchat.mod
    
     public class guildchat : BaseMod, ICommListener
 	{
-
+        
         bool justontimeonline = false;
         string oldtyping = "";
 
@@ -187,13 +187,15 @@ namespace guildchat.mod
                         return true;
 
                     }
-                    else
+                    if (gdata.autoencrypt && rcmm.roomName == gdata.guildroom)
                     {
-                        if (rcmm.roomName==gdata.guildroom)
-                        {
-                            return true;
+                        return true;
 
-                        }
+                    }
+                    if (rcmm.text.StartsWith("/autoencrypt"))
+                    {
+                        return true;
+
                     }
                 }
             }
@@ -224,6 +226,19 @@ namespace guildchat.mod
                 {
                     RoomChatMessageMessage rcmm = (RoomChatMessageMessage)msg;
                     Console.WriteLine("###roomchatmessage" + rcmm.text);
+
+                    if (rcmm.text.StartsWith("/autoencrypt"))
+                    {
+                        gdata.autoencrypt = !gdata.autoencrypt;
+                        RoomChatMessageMessage nrcmm = new RoomChatMessageMessage(rcmm.roomName, "autoencryption in guildchat is disabled");
+                        nrcmm.from = "guildmod";
+
+                        if (gdata.autoencrypt) nrcmm.text = "autoencryption in guildchat is enabled";
+                        App.ArenaChat.handleMessage(nrcmm);
+                        gdata.saveEncryptSettings();
+                        returnValue = true;
+                        return;
+                    }
 
                     if (rcmm.roomName == gdata.guildroom && !(rcmm.text.StartsWith("/g") || rcmm.text.StartsWith("\\g")))
                     {

@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="guildchat.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Guilddata.cs">
     <Files>
       <File FileName="guildchat.cs" Line="332" Column="14" />
+      <File FileName="Guilddata.cs" Line="63" Column="42" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
