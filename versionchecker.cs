@@ -13,7 +13,7 @@ namespace guildchat.mod
         bool getdata = false;
         int anzWarnings = 2;
         int warnings = 0;
-        string currentversion = "1.0.0.1";
+        string currentversion = "1.0.0.2";
         string newestversion = "0.0.0.0";
 
         public  versionchecker()

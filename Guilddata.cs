@@ -90,10 +90,10 @@ namespace guildchat.mod
             int i = 0;
             foreach (string t in entrys)
             {
-                txt = txt + keys[i] + t + "&";
+                txt = txt + keys[i] + System.Uri.EscapeDataString(t) + "&";
                 i++;
             }
-            string txt1 = txt.Replace(" ", "+");
+            string txt1 = txt;
             //Console.WriteLine("##sendTogoogle: "+txt1);
             byte[] bytes = Encoding.ASCII.GetBytes(txt1 + "draftResponse=%5B%5D%0D%0A&pageHistory=0");
 
